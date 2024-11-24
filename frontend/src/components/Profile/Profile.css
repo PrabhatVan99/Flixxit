@@ -1,0 +1,109 @@
+  .profile {
+  padding: 20px;
+  text-align: left;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.watchlist {
+  margin-bottom: 20px;
+}
+
+.watchlist-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.watchlist-item {
+  flex: 1 0 21%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ratings {
+  margin-bottom: 20px;
+}
+
+.rating-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.rating-item {
+  flex: 1 0 21%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.recommendations {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #ddd;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.recommendations::-webkit-scrollbar {
+  height: 10px;
+}
+
+.recommendations::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.recommendations::-webkit-scrollbar-track {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.movie {
+  flex: 0 0 21%; /* Adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 18px;
+  color: #ff0000;
+}
+
+.movie-info {
+  text-align: center;
+  padding: 10px;
+}
+
+.details-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.details-link:hover {
+  background-color: #0056b3;
+}

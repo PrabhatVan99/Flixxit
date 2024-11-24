@@ -1,0 +1,38 @@
+.search-results {
+  padding: 20px;
+}
+
+/* .movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+} */
+
+.movie-item {
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.movie-item:hover {
+  transform: scale(1.05);
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.movie-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.loading, .error {
+  text-align: center;
+  font-size: 18px;
+  color: #ff0000;
+}
