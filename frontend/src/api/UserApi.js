@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for the API
-const API_BASE_URL = 'http://localhost:5001/api/users';
+const API_BASE_URL = 'https://flixxit-backend-o306.onrender.com';
 
 // Register User
 export const registerUser = async (name, email, password) => {
